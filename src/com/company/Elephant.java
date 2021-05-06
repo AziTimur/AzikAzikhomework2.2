@@ -17,3 +17,4 @@ public class Elephant extends Animal implements Printable {
         System.out.println(name+" "+color+" " +age+" "+whole);
     }
 }
+

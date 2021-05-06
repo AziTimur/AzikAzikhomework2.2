@@ -10,6 +10,7 @@ public class Cow extends Animal implements Printable {
     public Cow(int age, String name, Color color, String breed) {
         super(age, name, color);
         this.breed=breed;
+
     }
 
     @Override

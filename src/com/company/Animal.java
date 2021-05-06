@@ -11,6 +11,7 @@ public class Animal implements Printable {
         this.color = color;
     }
 
+
     @Override
     public void print() {
         System.out.println(name+" "+color+" " +age);

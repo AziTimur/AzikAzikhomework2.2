@@ -10,6 +10,7 @@ public class Eagle extends Animal implements Printable{
     public Eagle(int age, String name, Color color, int wings) {
         super(age, name, color);
         this.wings = wings;
+
     }
 
     @Override
