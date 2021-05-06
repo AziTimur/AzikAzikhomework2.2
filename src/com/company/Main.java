@@ -26,10 +26,12 @@ public class Main {
             case "cow":
                 Cow cow = new Cow(5, "Гелбфри", Color.BROWN, "Немецкий");
                 return cow;
-
-            default:
+            case "eagle":
                 Eagle eagle = new Eagle(2, "Bozkurt", Color.BLACK, 1);
                 return eagle;
+
+            default:
+                return null;
         }
 
 
